@@ -7,7 +7,7 @@ import { ArrowUpRight, LayoutGrid } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Sekolah App",
-  description: "Kumpulan aplikasi dan layanan digital SMP Negeri 14 Tarakan.",
+  description: "Kumpulan aplikasi dan layanan digital SMP Negeri 6 Tarakan.",
 };
 
 export default async function SekolahAppPage() {
@@ -18,7 +18,7 @@ export default async function SekolahAppPage() {
       <Navbar />
       <main className="mx-auto max-w-6xl px-4 py-10">
         <h1 className="font-display text-2xl font-bold sm:text-3xl">Sekolah App</h1>
-        <p className="mt-2 text-foreground/60">Kumpulan aplikasi dan layanan digital SMP Negeri 14 Tarakan.</p>
+        <p className="mt-2 text-foreground/60">Kumpulan aplikasi dan layanan digital SMP Negeri 6 Tarakan.</p>
 
         {apps.length === 0 ? (
           <p className="mt-10 rounded-lg border border-dashed border-border p-10 text-center text-foreground/50">

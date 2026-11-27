@@ -89,11 +89,11 @@ export function AdminSidebar({ isSuperAdmin }: { isSuperAdmin: boolean }) {
         )}
       >
         <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-primary font-display text-xs font-bold text-primary-foreground">
-          14
+          6
         </div>
         {!collapsed && (
           <div className="leading-tight">
-            <p className="text-sm font-semibold text-chrome-strong">SMP Negeri 14</p>
+            <p className="text-sm font-semibold text-chrome-strong">SMP Negeri 6</p>
             <p className="text-[11px] text-chrome-muted">Panel Admin</p>
           </div>
         )}

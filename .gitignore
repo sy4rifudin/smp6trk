@@ -12,6 +12,9 @@
 .env*.local
 .env
 
+# dump database — berisi hash password akun, JANGAN pernah ikut ter-commit
+dbdump-*.sql
+
 # misc
 .DS_Store
 *.pem

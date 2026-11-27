@@ -32,7 +32,7 @@ export function urlAman(url: string): string | null {
   }
 }
 
-/** "https://piketsmp14.vercel.app/path" -> "piketsmp14.vercel.app" */
+/** "https://piketsmp6.vercel.app/path" -> "piketsmp6.vercel.app" */
 export function domainDari(url: string): string {
   try {
     return new URL(url).host;

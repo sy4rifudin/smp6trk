@@ -30,10 +30,10 @@ export async function Footer() {
   ].filter(Boolean) as { label: string; href: string; Icon: typeof Instagram; badgeClass: string }[];
 
   return (
-    <footer className="mt-16 border-t border-[#0f2544] bg-[#1B3A6B] text-white">
+    <footer className="mt-16 border-t border-[#0f2544] bg-[#1B6B3A] text-white">
       <div className="mx-auto grid max-w-6xl grid-cols-1 gap-8 px-4 py-10 sm:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1fr_1fr]">
         <div>
-          <p className="font-display text-lg font-bold">{profil?.nama_sekolah ?? "SMP Negeri 14 Tarakan"}</p>
+          <p className="font-display text-lg font-bold">{profil?.nama_sekolah ?? "SMP Negeri 6 Tarakan"}</p>
           <p className="mt-2 text-sm text-white/70">
             {profil?.deskripsi_singkat ?? "Portal berita dan informasi resmi kegiatan sekolah."}
           </p>
@@ -106,8 +106,8 @@ export async function Footer() {
         </div>
       </div>
 
-      <div className="border-t border-white/10 py-4 text-center text-xs text-white/60" style={{ backgroundColor: "#1a45bc" }}>
-        © {new Date().getFullYear()} {profil?.nama_sekolah ?? "SMP Negeri 14 Tarakan"} — Dibuat oleh Tim IT Sekolah
+      <div className="border-t border-white/10 py-4 text-center text-xs text-white/60" style={{ backgroundColor: "#124d29" }}>
+        © {new Date().getFullYear()} {profil?.nama_sekolah ?? "SMP Negeri 6 Tarakan"} — Dibuat oleh Tim IT Sekolah
         {" · "}
         <a href="/kebijakan-privasi" className="underline hover:text-white">Kebijakan Privasi</a>
       </div>

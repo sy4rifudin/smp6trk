@@ -70,9 +70,8 @@ export default async function DetailBeritaPage({ params }: Props) {
         .limit(3)
     : { data: [] };
 
-  const shareUrl = encodeURIComponent(
-    `https://smpn14tarakan.sch.id/berita/${berita.slug}`
-  );
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+  const shareUrl = encodeURIComponent(`${baseUrl}/berita/${berita.slug}`);
   const shareText = encodeURIComponent(berita.judul);
 
   return (

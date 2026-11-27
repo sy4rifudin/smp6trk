@@ -168,7 +168,7 @@ export function BeritaForm({ mode, beritaId, initialData }: BeritaFormProps) {
             id="judul"
             value={judul}
             onChange={(e) => setJudul(e.target.value)}
-            placeholder="Contoh: Siswa SMPN 14 Tarakan Juara Lomba OSN Tingkat Provinsi"
+            placeholder="Contoh: Siswa SMPN 6 Tarakan Juara Lomba OSN Tingkat Provinsi"
             className="mt-1"
           />
         </div>

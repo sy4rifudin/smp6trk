@@ -91,7 +91,7 @@ export function RegistrasiEditorForm() {
     <>
       <h1 className="font-display text-2xl font-bold">Daftar Jadi Editor Berita</h1>
       <p className="mt-2 text-sm text-foreground/60">
-        Untuk guru & staf SMP Negeri 14 Tarakan yang ingin ikut menulis berita kegiatan sekolah. Akun akan aktif
+        Untuk guru & staf SMP Negeri 6 Tarakan yang ingin ikut menulis berita kegiatan sekolah. Akun akan aktif
         setelah disetujui admin.
       </p>
 

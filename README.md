@@ -1,4 +1,4 @@
-# Portal Berita Sekolah — SMP Negeri 14 Tarakan
+# Portal Berita Sekolah — SMP Negeri 6 Tarakan
 
 Struktur awal project Next.js (App Router) + Supabase untuk portal berita sekolah multi-editor.
 

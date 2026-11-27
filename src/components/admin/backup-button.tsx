@@ -33,7 +33,7 @@ export function BackupButton() {
     setError(null);
     const hasil: Record<string, unknown> = {
       dibuat_pada: new Date().toISOString(),
-      keterangan: "Backup data Portal Berita SMP Negeri 14 Tarakan. Tidak termasuk file di Storage dan tabel kunjungan.",
+      keterangan: "Backup data Portal Berita SMP Negeri 6 Tarakan. Tidak termasuk file di Storage dan tabel kunjungan.",
       tabel: {},
     };
 

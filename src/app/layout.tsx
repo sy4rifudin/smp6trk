@@ -16,10 +16,10 @@ const jakartaSans = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: "SMP Negeri 14 Tarakan",
-    template: "%s | SMP Negeri 14 Tarakan",
+    default: "SMP Negeri 6 Tarakan",
+    template: "%s | SMP Negeri 6 Tarakan",
   },
-  description: "Portal berita dan informasi kegiatan SMP Negeri 14 Tarakan.",
+  description: "Portal berita dan informasi kegiatan SMP Negeri 6 Tarakan.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

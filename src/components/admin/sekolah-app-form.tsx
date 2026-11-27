@@ -32,7 +32,7 @@ export function SekolahAppForm({ item, onSelesai }: SekolahAppFormProps) {
 
     if (!nama.trim()) return setError("Nama aplikasi wajib diisi.");
     const urlBersih = normalisasiUrl(url);
-    if (!urlBersih) return setError("Alamat tidak valid. Contoh yang benar: portalsmp14.vercel.app");
+    if (!urlBersih) return setError("Alamat tidak valid. Contoh yang benar: portalsmp6.vercel.app");
 
     setSaving(true);
     const data = {
@@ -75,11 +75,11 @@ export function SekolahAppForm({ item, onSelesai }: SekolahAppFormProps) {
       <div className="grid gap-3 sm:grid-cols-2">
         <div>
           <Label htmlFor={`${idDasar}-nama`}>Nama Aplikasi</Label>
-          <Input id={`${idDasar}-nama`} className="mt-1" value={nama} onChange={(e) => setNama(e.target.value)} placeholder="Contoh: Portal SMP 14" />
+          <Input id={`${idDasar}-nama`} className="mt-1" value={nama} onChange={(e) => setNama(e.target.value)} placeholder="Contoh: Portal SMP 6" />
         </div>
         <div>
           <Label htmlFor={`${idDasar}-url`}>Alamat (URL)</Label>
-          <Input id={`${idDasar}-url`} className="mt-1" value={url} onChange={(e) => setUrl(e.target.value)} placeholder="portalsmp14.vercel.app" />
+          <Input id={`${idDasar}-url`} className="mt-1" value={url} onChange={(e) => setUrl(e.target.value)} placeholder="portalsmp6.vercel.app" />
         </div>
       </div>
 

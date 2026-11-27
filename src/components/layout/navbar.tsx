@@ -36,14 +36,14 @@ export async function Navbar() {
     <div className="sticky top-0 z-40">
       <VisitorTracker />
       <EmergencyBanner />
-      <header className="border-b border-[#0f2544] bg-[#1B3A6B]">
+      <header className="border-b border-[#0f2544] bg-[#1B6B3A]">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
           <Link href="/" className="flex items-center gap-2">
             <div className="flex h-9 w-9 items-center justify-center rounded-full bg-accent font-display text-sm font-bold text-accent-foreground">
-              14
+              6
             </div>
             <div className="leading-tight">
-              <p className="font-display text-sm font-bold text-white">SMP Negeri 14</p>
+              <p className="font-display text-sm font-bold text-white">SMP Negeri 6</p>
               <p className="text-xs text-white/60">Tarakan</p>
             </div>
           </Link>

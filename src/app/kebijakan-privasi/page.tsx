@@ -6,7 +6,7 @@ export default async function KebijakanPrivasiPage() {
   const supabase = await createClient();
   const { data: profil } = await supabase.from("profil_sekolah").select("nama_sekolah, alamat, telepon, email").eq("id", 1).single();
 
-  const namaSekolah = profil?.nama_sekolah ?? "SMP Negeri 14 Tarakan";
+  const namaSekolah = profil?.nama_sekolah ?? "SMP Negeri 6 Tarakan";
 
   return (
     <>

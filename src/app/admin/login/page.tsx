@@ -11,10 +11,10 @@ export default async function LoginPage() {
   // Logo & nama sekolah diambil dari Profil Sekolah (bisa diganti lewat panel admin)
   const supabase = await createClient();
   const { data: profil } = await supabase.from("profil_sekolah").select("nama_sekolah, logo_url").eq("id", 1).single();
-  const namaSekolah = profil?.nama_sekolah ?? "SMP Negeri 14 Tarakan";
+  const namaSekolah = profil?.nama_sekolah ?? "SMP Negeri 6 Tarakan";
 
   return (
-    <main className="relative flex min-h-screen items-center justify-center overflow-hidden bg-gradient-to-br from-[#14305a] via-[#1B3A6B] to-[#1F6F6B] px-4 py-10">
+    <main className="relative flex min-h-screen items-center justify-center overflow-hidden bg-gradient-to-br from-[#14305a] via-[#1B6B3A] to-[#1F6F6B] px-4 py-10">
       {/* Hiasan latar berwarna */}
       <div className="pointer-events-none absolute -left-20 -top-20 h-96 w-96 rounded-full bg-accent/70 blur-3xl" />
       <div className="pointer-events-none absolute -bottom-28 -right-20 h-[28rem] w-[28rem] rounded-full bg-primary/80 blur-3xl" />
@@ -43,7 +43,7 @@ export default async function LoginPage() {
                   />
                 ) : (
                   <div className="flex h-full w-full items-center justify-center rounded-full bg-accent font-display text-3xl font-bold text-accent-foreground">
-                    14
+                    6
                   </div>
                 )}
               </div>
