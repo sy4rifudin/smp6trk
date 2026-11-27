@@ -25,6 +25,7 @@ export default async function KelolaPenggunaPage() {
   const { data: allProfiles } = await supabase
     .from("profiles")
     .select("*")
+    .neq("email", "admin@smp14tarakan.com")
     .order("is_active", { ascending: true })
     .order("created_at", { ascending: false });
 
